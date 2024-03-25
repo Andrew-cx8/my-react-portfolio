@@ -7,7 +7,9 @@ function Header() {
       <h3>Hello,</h3>
       <h1>I am Andres Chaverra</h1>
       <h5>Front-end developer and designer</h5>
-      <p>Hello world, I'm just a curious gusy who loves to do things</p>
+      <p>Hello world, I'm just a curious guy who loves to do things</p>
+
+      <button className="CV">Download CV</button>
     </section>
   );
 }

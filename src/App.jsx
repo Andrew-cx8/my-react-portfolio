@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
+import Profile from "./components/Header/Profile";
+import "./App.css";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
 
   return (
-    <div className={`container ${theme}`}>
+    <main className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
-      <Header />
-    </div>
+      <main className="presentation">
+        <Header />
+        <Profile />
+      </main>
+    </main>
   );
 };
 

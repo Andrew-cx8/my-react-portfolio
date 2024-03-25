@@ -17,7 +17,7 @@ const Navbar = ({ theme, setTheme }) => {
     <div className="navbar">
       <div className="logo">
         <div className="logo-bg">
-          <h1>{theme == "light" ? "😎" : "😴"}</h1>
+          <h1>{theme == "light" ? "👀" : "💜"}</h1>
         </div>
       </div>
       <ul>

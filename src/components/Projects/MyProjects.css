@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 100px;
+}
+
+.text{
+    font-size: 35px;
+}
+

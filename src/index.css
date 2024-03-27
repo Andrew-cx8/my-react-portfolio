@@ -7,13 +7,29 @@
 
 }
 
+
 .container{
   width: 100%;
   min-height: 100vh;
-  background: #ffffff;
   transition: 0.5s;
+
+  background-color: hsla(240, 0%, 100%, 1);
+    background-image:
+      radial-gradient(at 97% 98%, hsla(346, 0%, 100%, 1) 0px, transparent 50%),
+      radial-gradient(at 23% 100%, hsla(240, 0%, 100%, 1) 0px, transparent 50%),
+      radial-gradient(at 100% 67%, hsla(298, 100%, 89%, 0.63) 0px, transparent 50%),
+      radial-gradient(at 0% 64%, hsla(225, 96%, 68%, 0.29) 0px, transparent 50%),
+      radial-gradient(at 12% 25%, hsla(0, 0%, 100%, 1) 0px, transparent 50%),
+      radial-gradient(at 99% 44%, hsla(266, 100%, 65%, 0.36) 0px, transparent 50%);
 }
 
 .container.dark {
-  background: #222;
+  background:rgb(11, 11, 15);
+}
+
+.dark .text {
+  background: linear-gradient(to right, #FFFFFF 0%, #543d6f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }

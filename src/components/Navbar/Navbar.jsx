@@ -17,22 +17,14 @@ const Navbar = ({ theme, setTheme }) => {
     <div className="navbar">
       <div className="logo">
         <div className="logo-bg">
-          <h1>{theme == "light" ? "👀" : "💜"}</h1>
+          <h1>{theme == "light" ? "a." : "a."}</h1>
         </div>
       </div>
       <ul>
         <li>Home</li>
-        <li>About Me</li>
+        <li>My Projects</li>
         <li>Contact</li>
       </ul>
-
-      <div className="search-box">
-        <input type="text" placeholder="search" />
-        <img
-          src={theme == "light" ? search_icon_light : search_icon_light}
-          alt=""
-        />
-      </div>
 
       <img
         onClick={() => {

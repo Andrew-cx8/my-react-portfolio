@@ -34,7 +34,7 @@
     color: white;
 }
 
-button{
+.CV{
     color: white;
     background: black;
     padding: 15px;
@@ -46,12 +46,12 @@ button{
     font-weight: 300;
 }
 
-button:hover{
+.CV:hover{
 box-shadow: 0px 33px 46px 7px rgba(0, 0, 0, 0.5);
 font-weight: 600;
 }
 
-.dark button {
+.dark .CV {
     color: rgb(2, 2, 2);
     background: rgb(183, 102, 255);
     padding: 15px;
@@ -63,12 +63,12 @@ font-weight: 600;
     font-weight: 500;
 }
 
-button:hover {
+.CV:hover {
     box-shadow: 0px 33px 46px 7px rgba(0, 0, 0, 0.163);
     font-weight: 800;
 }
 
-.dark button:hover {
+.dark .CV:hover {
     color: white;
     box-shadow: 0px 33px 46px 7px rgb(181, 9, 255);
     font-weight: 600;

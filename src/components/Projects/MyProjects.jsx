@@ -15,6 +15,8 @@ function MyProjects() {
         title="Soren"
         image={soren}
         p="My first landing page made with vanilla HTML5 & CSS"
+        live="https://soren-coral.vercel.app/"
+        code="https://github.com/Andrew-cx8/Soren-Disney-landing-Page"
       />
     </div>
   );

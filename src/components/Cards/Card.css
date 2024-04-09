@@ -11,7 +11,8 @@
     width: 350px;
     border: rgb(233, 233, 233) solid 2px;
     box-sizing:border-box;
-    border-radius: 15px;
+    border-radius: 35px;
+    
 }
 
 .dark .position{
@@ -45,7 +46,7 @@
 .live, .code {
 
 
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     color: #fff;
     background-color: #000000;
@@ -59,7 +60,7 @@
     flex-direction: row-reverse;
     align-items: center;
     cursor: pointer;
-    text-transform: lowercase;
+    
 }
 
 .live:hover, .code:hover {

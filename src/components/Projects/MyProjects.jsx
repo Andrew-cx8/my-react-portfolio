@@ -1,10 +1,6 @@
 import React from "react";
 import "../Projects/MyProjects.css";
 import soren from "../../assets/Gallery/soren.png";
-import two from "../../assets/Gallery/2.png";
-import three from "../../assets/Gallery/3.png";
-import four from "../../assets/Gallery/4.png";
-import five from "../../assets/Gallery/5.png";
 import Card from "../Cards/Card";
 
 function MyProjects() {
@@ -18,6 +14,8 @@ function MyProjects() {
         live="https://soren-coral.vercel.app/"
         code="https://github.com/Andrew-cx8/Soren-Disney-landing-Page"
       />
+
+      <Card title="13" />
     </div>
   );
 }

@@ -17,6 +17,7 @@ function Card(props) {
               Live <img src={eye} alt="eye icon" />
             </button>
           </a>
+
           <a target="_blank" href={props.code}>
             <button className="code">
               Code <img src={github} alt="octocat" />{" "}

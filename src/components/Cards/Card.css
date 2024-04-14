@@ -50,7 +50,7 @@
     font-size: 14px;
     color: #fff;
     background-color: #000000;
-    padding: 10px 30px;
+    padding: 10px 15px;
     border: none;
     box-shadow: rgb(0, 0, 0) 5px 16px 34px -9px;
     border-radius: 15px;
@@ -66,12 +66,13 @@
 .live:hover, .code:hover {
 
     transition: 207ms;
-    padding: 10px 15px;
+    padding: 10px 30px;
     transform: translateY(-0px);
     background-color: #262626;
     color: #ffffff;
     border: none;
 }
+
 /*
 Ajusto tamaño iconos en los botones
 */

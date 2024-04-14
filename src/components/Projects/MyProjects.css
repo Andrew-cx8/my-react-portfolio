@@ -6,8 +6,8 @@
 }
 
 /*Ajusto las tarjetas para que aparezcan una a lado de la otra*/
-.contenido{
-    display: grid;
+.cardsFlex{
+    display: flex;
 }
 
 .contenedor{

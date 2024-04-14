@@ -21,8 +21,16 @@ const Navbar = ({ theme, setTheme }) => {
         </div>
       </div>
       <ul>
-        <li>Home</li>
-        <li>My Projects</li>
+        <li>
+          <a target="_self" href="#home">
+            Home
+          </a>
+        </li>
+        <li>
+          <a target="_self" href="#myprojects">
+            My Projects
+          </a>
+        </li>
         <li>Contact</li>
       </ul>
 

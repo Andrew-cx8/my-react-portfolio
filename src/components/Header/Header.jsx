@@ -3,7 +3,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <section className="hi">
+    <section id="home" className="hi">
       <h3>Hello,</h3>
       <h1>I am Andres Chaverra</h1>
       <h5>Front-end developer and designer</h5>

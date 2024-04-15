@@ -62,38 +62,10 @@ h1 {
     radial-gradient(at 99% 44%, hsla(266, 100%, 65%, 0.36) 0px, transparent 50%);
 }
 
+
 /* X-Small devices (portrait phones, less than 576px)*/
 @media screen and (max-width: 575.98px) {
-  .navbar{
-    position: fixed;
-    bottom: 0vh;
-    z-index: 1000;
-    background-color: #00000021;
-    margin: 0 20px 20px 20px;
-    max-width: fit-content;
-    border-radius: 45px;
-    
-  }
-
-  ul{
-    display: inline-block;
-    margin: 0px 25px;
-  }
-
-    .toggle-icon {
-      margin-left: auto;
-    }
-
-  .icon{
-    display: inline;
-    width: 35px;
-    align-content: center;
-    fill: black;
-    }
-    
-  .link-text {
-     visibility: hidden;
-  }
+ 
 
     .presentation {
       position: relative;
@@ -379,27 +351,49 @@ h1 {
         bottom: 0vh;
         z-index: 1000;
         background-color: #00000021;
-        margin: 0 20px 20px 20px;
+        margin:  0px 30px 20px;
         max-width: fit-content;
         border-radius: 45px;
-    
+        display: flex;
+        
       }
     
       ul {
         display: inline-block;
-        margin: 0px 25px;
+        margin: auto;
+      }
+
+      ul li{
+        display: inline-block;
+        margin: auto;
       }
     
       .toggle-icon {
-        margin-left: auto;
+        padding: 0;
+        margin-right: -40px;
+        
+      }
+
+      .logo{
+        margin-left: -40px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .nav-link{
+        padding: auto;
+        margin: auto;
+        max-height: fit-content;
+        max-width: fit-content;
       }
     
       .icon {
-        display: inline;
-        width: 35px;
+        display:inline;
+        width: 25px;
         align-content: center;
-        fill: black;
-      }
+        
+     }
+
     
       .link-text {
         visibility: hidden;
@@ -427,7 +421,7 @@ h1 {
         display: flex;
         justify-content: center;
         top: 10%;
-        left: 40%;
+        left: 35%;
         margin: auto;
         width: 120px;
       }
@@ -437,6 +431,7 @@ h1 {
         position: absolute;
         margin: 28vh 0vh 0px 25vw;
         max-width: 300px;
+        right: 25%;
       }
     
       .hi h1 {

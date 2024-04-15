@@ -8,6 +8,10 @@
 
 }
 
+.icon{
+  display: none;
+}
+
 .presentation{
   width: 100%;
   min-height: 100vh;
@@ -60,15 +64,38 @@ h1 {
 }
 
 /* X-Small devices (portrait phones, less than 576px)*/
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 575.98px) {
   .navbar{
     position: fixed;
     bottom: 0vh;
-    width: 100%;
     z-index: 1000;
-    background-color: #543d6f;
-
+    background-color: #00000021;
+    margin: 0 20px 20px 20px;
+    max-width: fit-content;
+    border-radius: 45px;
+    
   }
+
+  ul{
+    display: inline-block;
+    margin: 0px 25px;
+  }
+
+    .toggle-icon {
+      margin-left: auto;
+    }
+
+  .icon{
+    display: inline;
+    width: 35px;
+    align-content: center;
+    fill: black;
+    }
+    
+  .link-text {
+     visibility: hidden;
+  }
+
 }
 
 /* Small devices (landscape phones, less than 768px)*/

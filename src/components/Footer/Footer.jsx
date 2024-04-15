@@ -7,7 +7,7 @@ function Footer() {
       <footer>
         <span>
           <p>Made with</p>
-          <p class="heart">❤</p>
+          <p className="heart">❤</p>
           <p>by</p>
           <a href="https://github.com/Andrew-cx8" target="_blank">
             <strong> Andrew</strong>

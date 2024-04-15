@@ -7,7 +7,7 @@ function Card(props) {
   return (
     <div className="cardsmain">
       <div className="position">
-        <img id="pimage" src={props.image} alt={props.alt} srcset="" />
+        <img id="pimage" src={props.image} alt={props.alt} />
         <h2 id="psub">{props.title}</h2>
         <p id="pp">{props.p}</p>
 

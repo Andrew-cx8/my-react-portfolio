@@ -14,7 +14,7 @@
     border-right-style: none;
     border-color: rgba(79, 79, 79, 0.148);
     backdrop-filter: blur(18px);
-
+    transition: ease-in-out 0.5s;
 }
 
 .navbar a{ /*Desactivo el subrayado de los links*/

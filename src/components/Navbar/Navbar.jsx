@@ -4,6 +4,9 @@ import moon from "../../assets/moon.svg";
 import sun from "../../assets/sun.svg";
 import search_icon_light from "../../assets/search.svg";
 import search_icon_dark from "../../assets/search_night.svg";
+import house from "../../assets/home.svg";
+import codi from "../../assets/code.svg";
+import mail from "../../assets/mail.svg";
 
 const Navbar = ({ theme, setTheme }) => {
   const toggle_mode = () => {
@@ -22,16 +25,23 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
       <ul>
         <li>
-          <a target="_self" href="#home">
-            Home
+          <a target="_self" href="#home" className="nav-link">
+            <span className="link-text">Home</span>
+            <img src={house} alt="" className="icon" />
           </a>
         </li>
         <li>
-          <a target="_self" href="#myprojects">
-            My Projects
+          <a target="_self" href="#myprojects" className="nav-link">
+            <span className="link-text">My Projects</span>
+            <img src={codi} alt="" className="icon" />
           </a>
         </li>
-        <li>Contact</li>
+        <li>
+          <a target="_self" href="#myprojects" className="nav-link">
+            <span className="link-text">My Projects</span>
+            <img src={mail} alt="" className="icon" />
+          </a>
+        </li>
       </ul>
 
       <img

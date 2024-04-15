@@ -21,6 +21,10 @@
     text-decoration: none;
     color: black;
 }
+
+.dark .navbar a {
+    color: white;
+}
 /*
 .logo-bg{
     background: #00000014;

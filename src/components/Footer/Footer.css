@@ -21,6 +21,7 @@ span {
 }
 footer{
     margin: 10px;
+    max-width: fit-content;
 }
 
 footer a {

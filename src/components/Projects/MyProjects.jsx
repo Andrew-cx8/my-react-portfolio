@@ -15,8 +15,6 @@ function MyProjects() {
           live="https://soren-coral.vercel.app/"
           code="https://github.com/Andrew-cx8/Soren-Disney-landing-Page"
         />
-
-        <Card title="13" />
       </div>
     </div>
   );

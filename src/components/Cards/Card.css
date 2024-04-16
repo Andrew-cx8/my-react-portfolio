@@ -1,7 +1,7 @@
 .cardsmain{
     margin: 20px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 .position{
@@ -17,11 +17,16 @@
 }
 
 .dark .position{
-        border: rgba(255, 255, 255, 0.065) solid 2px;
+    border: rgba(255, 255, 255, 0.065) solid 2px;
+    
 }
 
 #psub{
     text-align: center;
+}
+
+.dark #psub{
+    color: white;
 }
 
 #pimage{

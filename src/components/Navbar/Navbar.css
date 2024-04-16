@@ -22,7 +22,12 @@
     color: black;
 }
 
-.dark .navbar a {
+.navbar span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dark .navbar span {
     color: white;
 }
 /*

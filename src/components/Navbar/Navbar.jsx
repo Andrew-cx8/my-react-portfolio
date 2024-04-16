@@ -38,7 +38,7 @@ const Navbar = ({ theme, setTheme }) => {
         </li>
         <li>
           <a target="_self" href="#myprojects" className="nav-link">
-            <span className="link-text">My Projects</span>
+            <span className="link-text">Contact</span>
             <img src={mail} alt="" className="icon" />
           </a>
         </li>

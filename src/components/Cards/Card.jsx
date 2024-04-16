@@ -7,14 +7,14 @@ function Card(props) {
   return (
     <div className="cardsmain">
       <div className="position">
-        <img id="pimage" src={props.image} alt={props.alt} />
+        <img id="pimage" src={props.image} alt={props.alt} srcset="" />
         <h2 id="psub">{props.title}</h2>
         <p id="pp">{props.p}</p>
 
         <div className="buttons">
           <a target="_blank" href={props.live}>
             <button className="live">
-              Live <img src={eye} alt="eye icon" />
+              Live <img src={eye} alt="eye icon" srcset="" />
             </button>
           </a>
 

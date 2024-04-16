@@ -372,9 +372,14 @@ h1 {
       }
 
       footer{
-        margin-top: 30px;
-        margin-bottom: 150px;
+        padding: 0px 0px 125px 0px;
       }
+
+      .dark footer{
+      background-color: rgb(11, 11, 15);  
+    
+    
+    }
     
     
 }

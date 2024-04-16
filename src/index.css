@@ -370,6 +370,11 @@ h1 {
         align-items: center;
         justify-content: center;
       }
+
+      footer{
+        margin-top: 30px;
+        margin-bottom: 150px;
+      }
     
     
 }

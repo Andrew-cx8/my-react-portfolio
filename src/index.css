@@ -62,6 +62,10 @@ h1 {
     radial-gradient(at 99% 44%, hsla(266, 100%, 65%, 0.36) 0px, transparent 50%);
 }
 
+.dark a{
+  color: white;
+}
+
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media screen and (max-width: 575.98px) {

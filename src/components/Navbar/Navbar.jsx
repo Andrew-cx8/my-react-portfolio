@@ -7,6 +7,7 @@ import search_icon_dark from "../../assets/search_night.svg";
 import house from "../../assets/home.svg";
 import codi from "../../assets/code.svg";
 import mail from "../../assets/mail.svg";
+import { AiTwotoneHome } from "react-icons/ai";
 
 const Navbar = ({ theme, setTheme }) => {
   const toggle_mode = () => {

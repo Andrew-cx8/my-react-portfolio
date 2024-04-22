@@ -10,5 +10,6 @@
 .cardsFlex{
     display: flex;
     max-width: fit-content;
+    margin: auto; /*Centra las tarjetas*/
 }
 

@@ -1,3 +1,9 @@
+.photo {
+    position: relative;
+    width: 100%;
+    height: 0;
+    
+}
 #pfp{
     max-width: 400px;
     max-height: 400px;

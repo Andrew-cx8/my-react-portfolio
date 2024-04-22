@@ -11,8 +11,12 @@
   display: none;
 }
 
+#pfp{
+  margin-left: 10vw;
+}
+
 .presentation{
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   transition: 0.5s;
 
@@ -44,6 +48,10 @@
 
 h1 {
   font-size: 60px;
+}
+
+.navbar{
+  z-index: 1000;
 }
 
 .dark h1 {
@@ -145,129 +153,32 @@ a{
 }
 
 /* Small devices (landscape phones, less than 768px)*/
-@media screen and (max-width: 767.98px) {
-  .navbar {
-      position: fixed;
-      bottom: 0vh;
-      z-index: 1000;
-      background-color: #00000021;
-      margin: 0 20px 20px 20px;
-      max-width: fit-content;
-      border-radius: 45px;
-  
-    }
-  
-    ul {
-      display: inline-block;
-      margin: 0px 25px;
-    }
-  
-    .toggle-icon {
-      margin-left: auto;
-    }
-  
-    .icon {
-      display: inline;
-      width: 35px;
-      align-content: center;
-      fill: black;
-    }
-  
-    .link-text {
-      visibility: hidden;
-    }
-  
-    .presentation {
-      position: relative;
-      display: grid;
-      width: 100%;
-      max-height: 100vh;
-      transition: 0.5s;
-  
-      background-color: hsla(240, 0%, 100%, 1);
-      background-image:
-        radial-gradient(at 97% 98%, hsla(346, 0%, 100%, 1) 0px, transparent 50%),
-        radial-gradient(at 23% 100%, hsla(240, 0%, 100%, 1) 0px, transparent 50%),
-        radial-gradient(at 100% 67%, hsla(298, 100%, 89%, 0.63) 0px, transparent 50%),
-        radial-gradient(at 0% 64%, hsla(225, 96%, 68%, 0.29) 0px, transparent 50%),
-        radial-gradient(at 12% 25%, hsla(0, 0%, 100%, 1) 0px, transparent 50%),
-        radial-gradient(at 99% 44%, hsla(266, 100%, 65%, 0.36) 0px, transparent 50%);
-    }
-  
-    #pfp {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      top: 10%;
-      left: 40%;
-      margin: auto;
-      width: 120px;
-    }
-  
-    .hi {
-      display: inline-block;
-      position: absolute;
-      margin: 28vh 0vh 0px 25vw;
-      max-width: 300px;
-    }
-  
-    .hi h1 {
-      justify-content: center;
-      font-size: 45px;
-      text-align: center;
-    }
-  
-    .hi h3 {
-      font-size: 15px;
-      text-align: center;
-    }
-  
-  
-    .hi h5 {
-      padding: 5px;
-      text-align: center;
-      font-size: 1rem;
-    }
-  
-    .hi p {
-      padding: 10px;
-      text-align: justify;
-      font-size: 1rem;
-      text-align: center;
-      line-clamp: 20px;
-    }
-  
-    .CV {
-  
-      margin: auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-  }
+
 
 
 /* Medium devices (tablets, less than 992px)*/
 
 
 /* Large devices (desktops, less than 1200px)*/
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 767.98px) {
     .navbar {
         position: fixed;
         bottom: 0vh;
         z-index: 1000;
-        background-color: #00000021;
-        margin:  0px 30px 20px;
+        background-color: #ffffffb6;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
         max-width: fit-content;
         border-radius: 45px;
         display: flex;
-        
+        left:15vw;
       }
     
       ul {
         display: inline-block;
         margin: auto;
+        padding-bottom: 13px;
       }
 
       ul li{
@@ -327,10 +238,13 @@ a{
         position: absolute;
         display: flex;
         justify-content: center;
-        top: 10%;
-        left: 35%;
-        margin: auto;
+        margin-top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+        margin-right: auto;
         width: 120px;
+        
       }
     
       .hi {
@@ -368,13 +282,22 @@ a{
       }
     
       .CV {
-    
         margin: auto;
-        display: flex;
+        display: grid;
+        
+        align-items: center;
+        justify-content: center;
+      }
+      .dark .CV {
+        margin: auto;
+        display: grid;
         align-items: center;
         justify-content: center;
       }
 
+      .cardsmain{
+        display: 
+      }
       footer{
         padding: 0px 0px 125px 0px;
       }
@@ -389,9 +312,7 @@ a{
 }
 
 /* X-Large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) {
-  
-}
+
 
 /* XX-Large devices (larger desktops)*/
 /* No media query since the xxl breakpoint has no upper bound on its width*/

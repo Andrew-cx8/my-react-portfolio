@@ -4,6 +4,8 @@
     z-index: 1;
 }
 
+
+
 .position{
     display: flex;
     flex-direction: column;
@@ -16,10 +18,17 @@
     
 }
 
-.dark .position{
+.dark .position{ /*Fondo de las tarjetas en oscuro*/
     border: rgba(255, 255, 255, 0.065) solid 2px;
+    background-color: #aae6ff1e;
+    transition: ease-in 0.1s;
     
 }
+
+/*Animacion de hover*/
+
+.dark .position:hover {
+    border: rgba(255, 255, 255, 0.163) solid 2px;}
 
 #psub{
     text-align: center;
@@ -69,6 +78,11 @@
     
 }
 
+.dark .live, .dark .code{
+     color: #ffffff;
+    background-color: #000000;
+}
+
 .live:hover, .code:hover {
 
     transition: 207ms;
@@ -77,6 +91,13 @@
     background-color: #262626;
     color: #ffffff;
     border: none;
+    font-weight: 600;
+}
+
+.dark .live:hover, .code:hover {
+
+    background-color: #2b2b2b;
+    color: #ffffff;
 }
 
 /*

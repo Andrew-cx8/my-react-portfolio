@@ -172,7 +172,8 @@ a{
         max-width: fit-content;
         border-radius: 45px;
         display: flex;
-        left:15vw;
+        border: #0000002c solid 2px;
+        left: 5vw;
       }
     
       ul {
@@ -295,9 +296,7 @@ a{
         justify-content: center;
       }
 
-      .cardsmain{
-        display: 
-      }
+
       footer{
         padding: 0px 0px 125px 0px;
       }

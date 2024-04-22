@@ -172,8 +172,14 @@ a{
         max-width: fit-content;
         border-radius: 45px;
         display: flex;
-        border: #0000002c solid 2px;
-        left: 5vw;
+        border: #00000013 solid 2px;
+        left: 4vw;
+      }
+
+
+      .dark .navbar{
+        border: #ffffff13 solid 2px;
+        left: 4vw;
       }
     
       ul {

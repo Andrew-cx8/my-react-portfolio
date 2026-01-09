@@ -1,4 +1,3 @@
-import React from "react";
 import "../Cards/Card.css";
 import eye from "../../assets/eye.svg";
 import github from "../../assets/github.svg";

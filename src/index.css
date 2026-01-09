@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+/*
+Link para base de diseño modo oscuro: https://huemint.com/website-monochrome/#palette=12161a-d7cdb9
+Work in progress
+*/
+
 .icon{
   display: none;
 }
@@ -31,11 +36,11 @@
 }
 
 .container.dark {
-  background:rgb(11, 11, 15);
+  background:#12161a;
 }
 
 .dark .text {
-  background: linear-gradient(to right, #FFFFFF 0%, #543d6f 100%);
+  background: #d7cdb9;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -55,13 +60,14 @@ h1 {
 }
 
 .dark h1 {
-  background: linear-gradient(to right, #FFFFFF 15%, #78678a 100%);
+  background: #d7cdb9;
+  /*background: linear-gradient(to right, #FFFFFF 0%, #d7cdb9 100%);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .dark .presentation {
-  background-color: hsla(240, 15%, 5%, 1);
+  background-color: #12161a;
   background-image:
     radial-gradient(at 23% 100%, hsla(240, 15%, 5%, 1) 0px, transparent 50%),
     radial-gradient(at 100% 67%, hsla(235, 65%, 17%, 0.63) 0px, transparent 50%),

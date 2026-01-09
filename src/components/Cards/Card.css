@@ -12,9 +12,9 @@
     align-items: center;
     height: auto;
     width: 350px;
-    border: rgb(233, 233, 233) solid 2px;
+    border: rgb(233, 233, 233) solid 1.5px;
     box-sizing:border-box;
-    border-radius: 35px;
+    border-radius: 30px;
     
 }
 
@@ -27,8 +27,14 @@
 
 /*Animacion de hover*/
 
+.light .position:hover {
+        border: rgb(233, 233, 233) solid 2px;
+        transition:ease-in-out 0.5s;
+}
+
 .dark .position:hover {
-    border: rgba(255, 255, 255, 0.163) solid 2px;}
+    border: rgba(255, 255, 255, 0.163) solid 2px;
+}
 
 #psub{
     text-align: center;

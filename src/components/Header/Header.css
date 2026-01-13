@@ -35,16 +35,17 @@
 }
 
 .CV{
-    color: white;
-    background: black;
-    padding: 15px;
+    font-weight: 400;
+    color: #d7cdb9;
+    background: #020202;
+    padding: 12px;
     margin: 30px 0px;
     border-radius: 15px;
-    border-style: none;
+    border-style: solid;
+    border-color: #12161a;
     cursor: pointer;
     transition: ease-in-out 0.3s;
-    font-weight: 300;
-    box-shadow: 0px 33px 46px 7px rgba(0, 0, 0, 0.5);
+    
 }
 
 .CV:hover{
